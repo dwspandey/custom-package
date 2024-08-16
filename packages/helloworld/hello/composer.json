@@ -1,0 +1,22 @@
+{
+    "name": "helloworld/hello",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Helloworld\\Hello\\": "src/"
+        },
+        "classmap": [
+            "src/controllers",
+            "src/models"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Helloworld\\Hello\\HelloServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
