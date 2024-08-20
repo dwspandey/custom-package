@@ -23,6 +23,9 @@ class HelloServiceProvider extends ServiceProvider
             'views' => [
                 "$basePath/src/views" => base_path('resources/views'),
             ],
+            'routes' => [
+                "$basePath/src/routes" => base_path('routes'),
+            ]
         ];
         foreach ($arrPublishableFiles as $groups => $paths) {
             $this->publishes($paths,$groups);
