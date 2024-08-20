@@ -1,6 +1,6 @@
 <?php
 
-namespace HelloWorld\Hello\Models;
+namespace Pandeydws\Hello\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;

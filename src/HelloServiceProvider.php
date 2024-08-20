@@ -1,6 +1,6 @@
 <?php
 
-namespace HelloWorld\Hello;
+namespace Pandeydws\Hello;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
