@@ -12,8 +12,8 @@ class HelloServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->make('HelloWorld\Hello\Controllers\HelloController');
-        $this->app->make('HelloWorld\Hello\Models\User');
+        $this->app->make('Pandeydws\Hello\Controllers\HelloController');
+        $this->app->make('Pandeydws\Hello\Models\User');
 
         $basePath = dirname(path:__DIR__);
         $arrPublishableFiles = [

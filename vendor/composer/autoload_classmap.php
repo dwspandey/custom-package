@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Pandeydws\\Hello\\Controllers\\HelloController' => $baseDir . '/src/controllers/HelloController.php',
+    'Pandeydws\\Hello\\Models\\User' => $baseDir . '/src/models/User.php',
 );

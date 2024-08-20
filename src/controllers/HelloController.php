@@ -1,6 +1,6 @@
 <?php
 
-namespace HelloWorld\Hello\Controllers;
+namespace Pandeydws\Hello\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
