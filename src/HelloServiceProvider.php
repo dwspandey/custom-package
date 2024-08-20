@@ -25,6 +25,12 @@ class HelloServiceProvider extends ServiceProvider
             ],
             'routes' => [
                 "$basePath/src/routes" => base_path('routes'),
+            ],
+            "controllers" => [
+                "$basePath/src/controllers" => app_path('Http/Controllers'),
+            ],
+            "models" => [
+                "$basePath/src/models" => app_path('Models'),
             ]
         ];
         foreach ($arrPublishableFiles as $groups => $paths) {
