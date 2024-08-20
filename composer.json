@@ -3,7 +3,7 @@
     "type": "package",
     "autoload": {
         "psr-4": {
-            "Helloworld\\Hello\\": "src/"
+            "Pandeydws\\Hello\\": "src/"
         },
         "classmap": [
             "src/controllers",
