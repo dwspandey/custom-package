@@ -10,6 +10,7 @@
             "src/models"
         ]
     },
+    
     "extra": {
         "laravel": {
             "providers": [
