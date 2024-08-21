@@ -18,7 +18,10 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^8.0",
+        "yajra/laravel-datatables-oracle": "^10.0"
+    },
     "license": "MIT"
 
 }
