@@ -3,7 +3,7 @@
         'name' => 'pandeydws/hello',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '070454d44dedce2079af1deddcfbdbab76ef796a',
+        'reference' => '008528488a070aba5ed209cbc42f00cbec051da3',
         'type' => 'package',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -193,7 +193,7 @@
         'pandeydws/hello' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '070454d44dedce2079af1deddcfbdbab76ef796a',
+            'reference' => '008528488a070aba5ed209cbc42f00cbec051da3',
             'type' => 'package',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
